@@ -55,11 +55,6 @@ namespace Interfaces
 
                 return false;
             }
-
-            public void Talk()
-            {
-                Console.WriteLine(name + ": nin.");
-            }
         }
 
         public class Enemy : IFightable
